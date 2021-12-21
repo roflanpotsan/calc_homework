@@ -17,6 +17,5 @@ int get_priority(const string &operation) {
     else if (operation == "sin" || operation == "cos" ||
              operation == "tg" || operation == "ctg" || operation == "exp")
         return 3;
-    else if (operation == "(") return -3;
-    else return -1;
+    else return 0;
 }
